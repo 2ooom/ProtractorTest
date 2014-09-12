@@ -1,7 +1,7 @@
-describe('angularjs homepage', function() {
-  it('should have a title', function() {
-    browser.get('http://juliemr.github.io/protractor-demo/');
+describe('inedx.html', function() {
+  browser.get('http://protractortest.azurewebsites.net/');
 
-    expect(browser.getTitle()).toEqual('Super Calculator');
+  it('should have a title', function() {
+    expect(browser.getTitle()).toEqual('Protractor Test App');
   });
 });
